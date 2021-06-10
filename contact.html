@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mr. Hello's Bookstore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/contact.css" />
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="top">
+    <div class="searchbox-main">
+      <input type="text" class="searchbox" placeholder="search" />
+      <img src="./img/magnifying-glass.png" alt="A magnifying glass" class="magnifying-glass" />
+    </div>
+    <div class="toplink">
+      <a href="../m8-1/login.php">Login</a>
+      <a href="#">Shopping Cart</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="title">
+      <h1>Mr. Hello Bookstore</h1>
+    </div>
+    <div class="main-img">
+      <a href="index.html"><img src="./img/spell-book_transparent.png"
+          alt="An open book that has magic sparks coming out of it" /></a>
+    </div>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./product.html">Products</a>
+      <a href="./faq.html">FAQ</a>
+      <a href="./contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="contact-title">
+      <h1>Contact us!</h1>
+    </div>
+
+    <div class="main">
+      <form action="mailto:haupt.brandon@gmail.com" method="post" class="main-input">
+        <input type="text" name="firstname" placeholder="First name" />
+        <input type="text" name="lastname" placeholder="Last Name" />
+        <input type="text" name="subject" placeholder="Subject" />
+      </form>
+
+      <div class="message">
+        <input type="text" name="message" placeholder="Your message" id="message" />
+        <button>Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <footer></footer>
+</body>
+
+</html>

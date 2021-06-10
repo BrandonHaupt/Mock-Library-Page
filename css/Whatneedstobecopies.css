@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #EDEDED;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+nav a {
+    padding: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    flex-basis: 30%;
+    color: white;
+}
+
+footer {
+    background-color: #1B1F3A;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input {
+     padding-left: 12%;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    background-color: #1B1F3A;
+    padding: 5px;
+}
+
+.toplink a {
+    color: white;
+    margin: 10px;
+}
+
+.searchbox-main {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.searchbox {
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 300px;
+    background-color: #121212;
+    color: white;
+}
+
+.searchbox:focus {
+    background-color: #303030;
+}
+
+.magnifying-glass {
+    position: absolute;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+}
+
+.header {
+    background-color: #53354A;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+}
+
+.main-img {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* Testing scrollbar customization */
+
+/*Changes the width of the main part of the scroll bar*/
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+/*Changes the background color of the main part of the scroll bar*/
+::-webkit-scrollbar-track {
+    background: grey;
+}
+
+/*Changes the color of the scrolling part of the scrollbar*/
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 20px;
+}
+
+/*Changes the color of the scrolling part of the scrollbar when hovered*/
+::-webkit-scrollbar-thumb:hover {
+    background-color: dodgerblue;
+} 
